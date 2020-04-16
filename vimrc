@@ -5,6 +5,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'morhetz/gruvbox'
+  Plug 'scrooloose/nerdtree'
+  Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 "--------------
