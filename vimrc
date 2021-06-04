@@ -33,4 +33,4 @@ scriptencoding utf-8
 "--------------
 " key mapping
 "--------------
-let mapleader = ","
+let mapleader = "\<Space>"

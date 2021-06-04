@@ -3,10 +3,13 @@
 "--------------
 " show line number
 set number
+" relative line number
+set relativenumber
 " disable mode(because of Vim-Airline)
 set noshowmode
 " display command
 set showcmd
+set wildmenu
 " do not display invisible characters
 set nolist
 set wrap              
