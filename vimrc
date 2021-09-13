@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'scrooloose/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'mattn/emmet-vim'
+  Plug 'dhruvasagar/vim-table-mode'
 call plug#end()
 
 "--------------
