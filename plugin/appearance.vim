@@ -59,3 +59,10 @@ set visualbell
 set noerrorbells
 set t_vb=
 set tm=500
+
+
+"--------------
+" Cursor
+"--------------
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
