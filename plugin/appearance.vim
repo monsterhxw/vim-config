@@ -46,7 +46,7 @@ syntax on
 
 try
   set background=dark
-  colorscheme gruvbox
+  colorscheme PaperColor
   highlight EndOfBuffer cterm=NONE ctermfg=bg ctermbg=bg
 catch
 endtry

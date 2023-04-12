@@ -4,7 +4,7 @@
 call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-  Plug 'morhetz/gruvbox'
+  Plug 'NLKNguyen/papercolor-theme'
   Plug 'scrooloose/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'mattn/emmet-vim'
