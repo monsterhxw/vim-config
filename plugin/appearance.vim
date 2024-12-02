@@ -46,8 +46,16 @@ syntax on
 
 try
   set background=dark
+  let g:PaperColor_Theme_Options = {
+    \   'theme': {
+    \     'default': {
+    \       'transparent_background': 1
+    \     }
+    \   }
+    \ }
   colorscheme PaperColor
   highlight EndOfBuffer cterm=NONE ctermfg=bg ctermbg=bg
+  "highlight EndOfBuffer cterm=NONE ctermfg=NONE ctermbg=NONE guibg=NONE
 catch
 endtry
 
