@@ -10,3 +10,6 @@ inoremap <UP> <NOP>
 inoremap <DOWN> <NOP>
 inoremap <LEFT> <NOP>
 inoremap <RIGHT> <NOP>
+
+" visual mode paste without overwriting register
+xnoremap p "_dP
