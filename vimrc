@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'dhruvasagar/vim-table-mode'
   Plug 'farmergreg/vim-lastplace'
+  Plug 'preservim/nerdcommenter'
 call plug#end()
 
 "--------------
