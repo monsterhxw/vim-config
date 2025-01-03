@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'dhruvasagar/vim-table-mode'
   Plug 'farmergreg/vim-lastplace'
   Plug 'preservim/nerdcommenter'
+  Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 "--------------
