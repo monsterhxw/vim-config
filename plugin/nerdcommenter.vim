@@ -9,3 +9,9 @@ let g:NERDDefaultAlign = 'left'
 
 " Set a language to use its alternate delimiters by default
 " let g:NERDAltDelims_java = 1
+
+" Map `Ctrl+/` to NERDCommenterToggle
+nmap <C-_> <Plug>NERDCommenterToggle
+vmap <C-_> <Plug>NERDCommenterToggle
+imap <C-_> <C-o><Plug>NERDCommenterToggle<CR>
+
