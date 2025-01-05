@@ -9,7 +9,7 @@ My personal Vim configuration
 ```shell
 $ git clone git@github.com:monsterhxw/vim-config.git ~/.vim
 
-$ mv ~/.vimrc ~/.vim/vimrc && ln -s ~/.vim/vimrc ~/.vimrc
+$ mv ~/.vimrc ~/.vim/vimrc.bak && ln -s ~/.vim/vimrc ~/.vimrc
 ```
 之后开启 `vim`，并执行 `:PlugInstall` 指令安装插件。
 
