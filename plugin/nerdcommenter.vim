@@ -16,4 +16,4 @@ let g:NERDCommentEmptyLines = 1
 " Map `<Leader>+/` to NERDCommenterToggle
 nmap <Leader>/ <Plug>NERDCommenterToggle
 vmap <Leader>/ <Plug>NERDCommenterToggle
-imap <Leader>/ <C-o><Plug>NERDCommenterToggle<CR>
+" imap <Leader>/ <C-o><Plug>NERDCommenterToggle<CR>
