@@ -42,20 +42,14 @@ set expandtab
 " ColorScheme
 "--------------
 set t_Co=256  " Number of colors
+set termguicolors
 syntax on
 
 try
-  set background=dark
-  let g:PaperColor_Theme_Options = {
-    \   'theme': {
-    \     'default': {
-    \       'transparent_background': 1
-    \     }
-    \   }
-    \ }
-  colorscheme PaperColor
-  highlight EndOfBuffer cterm=NONE ctermfg=bg ctermbg=bg
-  "highlight EndOfBuffer cterm=NONE ctermfg=NONE ctermbg=NONE guibg=NONE
+  let g:dracula_colorterm = 0 " Transparent
+  colorscheme dracula
+  highlight Visual cterm=NONE ctermbg=245 ctermfg=NONE guibg=#8294BF guifg=NONE
+  highlight CursorLine ctermbg=236 guibg=#2B2B2B
 catch
 endtry
 

@@ -5,7 +5,7 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
 " replace default theme
-let g:airline_theme= 'deus' " 'molokai'
+let g:airline_theme='dracula' "['deus','molokai']
 
 " display buffer number in tab
 let g:airline#extensions#tabline#buffer_idx_mode = 1
