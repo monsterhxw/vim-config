@@ -1,4 +1,4 @@
-nnoremap <silent> tmt :TableModeToggle<Enter>
+" nnoremap <silent> tmt :TableModeToggle<CR>
 
 " for markdown-compatible tables use
 " let g:table_mode_corner='|'

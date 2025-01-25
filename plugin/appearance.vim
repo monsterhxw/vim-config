@@ -60,7 +60,7 @@ endtry
 set visualbell
 set noerrorbells
 set t_vb=
-set tm=500
+" set tm=500
 
 
 "--------------

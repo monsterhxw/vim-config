@@ -11,4 +11,4 @@ set incsearch
 set smartcase
 
 " cancel search highlight if hit enter key after searching
-nnoremap <Enter> :nohlsearch<Enter><Enter>
+nnoremap <silent> <Leader><Enter> :nohlsearch<CR>

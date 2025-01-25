@@ -8,10 +8,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'scrooloose/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'mattn/emmet-vim'
-  Plug 'dhruvasagar/vim-table-mode'
   Plug 'farmergreg/vim-lastplace'
   Plug 'preservim/nerdcommenter'
   Plug 'easymotion/vim-easymotion'
+  Plug 'unblevable/quick-scope'
 call plug#end()
 
 "--------------
@@ -22,6 +22,8 @@ set clipboard=unnamed
 " set noswapfile
 " set hidden
 " set nobomb            " no BOM(Byte Order Mark)
+set timeoutlen=250
+set ttimeoutlen=50
 
 "--------------
 " Filetype and Encoding
