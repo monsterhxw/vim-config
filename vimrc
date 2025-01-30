@@ -13,6 +13,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'easymotion/vim-easymotion'
   Plug 'unblevable/quick-scope'
   Plug 'andymass/vim-matchup'
+  Plug 'tpope/vim-surround'
 call plug#end()
 
 "--------------
