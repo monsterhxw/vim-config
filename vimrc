@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'preservim/nerdcommenter'
   Plug 'easymotion/vim-easymotion'
   Plug 'unblevable/quick-scope'
+  Plug 'andymass/vim-matchup'
 call plug#end()
 
 "--------------
