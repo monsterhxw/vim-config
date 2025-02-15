@@ -14,6 +14,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'unblevable/quick-scope'
   Plug 'andymass/vim-matchup'
   Plug 'tpope/vim-surround'
+  Plug 'vim-scripts/SearchComplete'
+  Plug 'junegunn/fzf'
+  Plug 'junegunn/fzf.vim'
 call plug#end()
 
 "--------------
