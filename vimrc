@@ -17,6 +17,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-scripts/SearchComplete'
   Plug 'junegunn/fzf'
   Plug 'junegunn/fzf.vim'
+  Plug 'romainl/vim-cool'
 call plug#end()
 
 "--------------
