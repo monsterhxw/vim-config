@@ -18,6 +18,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf'
   Plug 'junegunn/fzf.vim'
   Plug 'romainl/vim-cool'
+  Plug 'lifepillar/vim-mucomplete'
 call plug#end()
 
 "--------------
