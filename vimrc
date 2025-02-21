@@ -19,6 +19,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf.vim'
   Plug 'romainl/vim-cool'
   Plug 'lifepillar/vim-mucomplete'
+  Plug 'Yggdroot/indentLine'
 call plug#end()
 
 "--------------
