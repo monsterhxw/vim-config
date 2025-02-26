@@ -20,6 +20,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'romainl/vim-cool'
   Plug 'lifepillar/vim-mucomplete'
   Plug 'Yggdroot/indentLine'
+  Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 "--------------
