@@ -21,6 +21,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'lifepillar/vim-mucomplete'
   Plug 'Yggdroot/indentLine'
   Plug 'jiangmiao/auto-pairs'
+  Plug 'liuchengxu/vim-which-key'
 call plug#end()
 
 "--------------
