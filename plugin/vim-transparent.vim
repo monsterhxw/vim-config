@@ -1,2 +1,2 @@
 " autocmd VimEnter * TransparentDisable
-cnoreabbrev trsp TransparentToggle
+" cnoreabbrev trsp TransparentToggle
