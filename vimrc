@@ -22,6 +22,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'Yggdroot/indentLine'
   Plug 'jiangmiao/auto-pairs'
   Plug 'liuchengxu/vim-which-key'
+  Plug 'tribela/vim-transparent'
 call plug#end()
 
 "--------------

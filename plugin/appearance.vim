@@ -46,10 +46,10 @@ set termguicolors
 syntax on
 
 try
-  let g:dracula_colorterm = 0 " Transparent
+  " let g:dracula_colorterm = 0 " Transparent
   colorscheme dracula
-  highlight Visual cterm=NONE ctermbg=245 ctermfg=NONE guibg=#8294BF guifg=NONE
-  highlight CursorLine ctermbg=236 guibg=#2B2B2B
+  " highlight Visual cterm=NONE ctermbg=245 ctermfg=NONE guibg=#8294BF guifg=NONE
+  " highlight CursorLine ctermbg=236 guibg=#2B2B2B
 catch
 endtry
 
